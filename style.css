@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn{
+    background-color: white;
+    color: #00bcd4;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero .btn:hover{
+    background-color:  #e0f7fa;
+}
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.product-grid{
+    display: flex;
+    justify-content: center;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.product-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+  position: relative;
+}
+
+
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.product-card h3 {
+  margin: 15px 0 5px;
+}
+.price {
+  color: #00bcd4;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.stars {
+  color: #ffc107;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #4caf50;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+
+.badge.sale {
+  background-color: #e91e63;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.footer form {
+  margin: 20px 0;
+}
+.footer input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  max-width: 80%;
+}
+.footer button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.copy {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  opacity: 0.7;
+}
